@@ -18,4 +18,5 @@ Studio.initializeListeners.push(async () => {
 
 Studio.readyListeners.push(async () => {
   console.log('Studio is now rendered')
+  Studio.openModal(() => <span>Hello from the custom extension</span>)
 })
