@@ -1,4 +1,4 @@
-﻿
+
 module.exports = {
   name: 'custom',
   main: './lib/main.js',

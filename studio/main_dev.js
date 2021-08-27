@@ -9,7 +9,7 @@ const Properties = (props) => (
         type='text'
         placeholder='a custom string'
         value={props.entity.custom}
-        onChange={(v) => props.onChange({custom: v.target.value, _id: props.entity._id})}
+        onChange={(v) => props.onChange({ custom: v.target.value, _id: props.entity._id })}
       />
     </div>
   </div>
