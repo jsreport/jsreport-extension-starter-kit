@@ -9,6 +9,7 @@
     "build": "jsreport-studio-build",
     "test": "standard",
     "start": "jsreport-studio-start --httpPort 5488",
+    "start-with-build": "jsreport-studio-start --httpPort 5488 --runOnly",
     "prepublish": "jsreport-studio-build"
   },
   "standard": {
