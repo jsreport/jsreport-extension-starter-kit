@@ -23,11 +23,10 @@
     }
   },
   "license": "MIT",
-  "dependencies": {},
   "author": "Jan Blaha",
   "devDependencies": {
-    "@jsreport/studio-dev": "3.0.1",
-    "standard": "16.0.3"
+    "@jsreport/studio-dev": "3.2.1",
+    "standard": "16.0.4"
   },
   "files": [
     "lib",
